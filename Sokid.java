@@ -1,7 +1,7 @@
-public class Kindad extends LisaHind{
+public class Sokid extends LisaHind{
 	double kogus;
 	double hind;
-	public Kindad(double kogus, double hind, double lisamaks){
+	public Sokid(double kogus, double hind, double lisamaks){
 		super(lisamaks);
 		this.kogus=kogus;
 		this.hind=hind;
