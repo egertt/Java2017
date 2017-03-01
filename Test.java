@@ -6,8 +6,8 @@ public class Test{
 		List<LisaHind> kasitoo=new ArrayList<LisaHind>();
 		kasitoo.add(s1);
 		kasitoo.add(s2);
-		kasitoo.add(new LapiTekk(13, 4, 5, 1.13, 1.5));
-		kasitoo.add(new LapiTekk(13, 4, 5, 1.13, 1.5));
+		kasitoo.add(new VatiTekk(13, 4, 5, 1.13, 1.5));
+		kasitoo.add(new VatiTekk(13, 4, 5, 1.13, 1.5));
 		for(LisaHind l: kasitoo){
 			System.out.println("Müügihind on=" + l.MyygiHind());
 

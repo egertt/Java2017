@@ -1,6 +1,6 @@
-public class LapiTekk extends LisaHind{
+public class VatiTekk extends LisaHind{
 	double riie, niit, rhind, nhind;
-	public LapiTekk(double riie, double niit, double rhind, double nhind, double lisamaks){
+	public VatiTekk(double riie, double niit, double rhind, double nhind, double lisamaks){
 		super(lisamaks);
 		this.riie=riie;
 		this.niit=niit;
